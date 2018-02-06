@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="channelBridge" type="TypeScript" />
+      <mapping pattern="sendAppToolLayout" type="TypeScript" />
+      <mapping pattern="uxComponents" type="TypeScript" />
+      <mapping pattern="sharedComponents" type="TypeScript" />
+    </extensionMap>
+  </component>
+</application>
