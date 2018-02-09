@@ -3,7 +3,7 @@
     <property name="created">2018-01-31T20:31:03</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2018-02-05T14:54:48</property>
+    <property name="modified">2018-02-09T13:55:32</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <attributes>
@@ -14,6 +14,9 @@
         <option name="ERROR_STRIPE_COLOR" value="36b13" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value />
     </option>
   </attributes>
 </scheme>
