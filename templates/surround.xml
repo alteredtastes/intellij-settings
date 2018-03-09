@@ -5,4 +5,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="withProps" value="withProps&lt;{}&gt;($SELECTION$)`${css`&#10;`}`;" description="Convert to component with props" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
