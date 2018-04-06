@@ -4,12 +4,13 @@
     <property name="created">2018-01-31T20:31:03</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2018-04-05T20:03:00</property>
+    <property name="modified">2018-04-05T20:08:18</property>
     <property name="originalScheme">Darcula</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Meslo LG M DZ for Powerline" />
-  <option name="CONSOLE_FONT_SIZE" value="10" />
+  <option name="CONSOLE_FONT_SIZE" value="9" />
+  <option name="CONSOLE_LINE_SPACING" value="0.8" />
   <attributes>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
