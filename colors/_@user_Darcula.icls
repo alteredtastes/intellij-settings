@@ -1,12 +1,16 @@
 <scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2018-01-31T20:31:03</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2018-02-26T14:32:35</property>
+    <property name="modified">2018-03-19T21:10:28</property>
     <property name="originalScheme">Darcula</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
+  <option name="CONSOLE_FONT_NAME" value="Meslo LG M for Powerline" />
+  <option name="CONSOLE_FONT_SIZE" value="9" />
+  <option name="CONSOLE_LINE_SPACING" value="0.9" />
   <attributes>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
