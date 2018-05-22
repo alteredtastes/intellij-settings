@@ -5,8 +5,8 @@
     <option name="defaultScopeName" value="Changed Files" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
+    <option name="FILE_MASK" value="*.def" />
     <recentFileMasks>
-      <mask>*.xml</mask>
       <mask>*.js</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
@@ -36,6 +36,7 @@
       <mask>*.scs</mask>
       <mask>*.scss</mask>
       <mask>*.java</mask>
+      <mask>*.def</mask>
     </recentFileMasks>
   </component>
 </application>
