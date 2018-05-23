@@ -18,6 +18,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="CheckinProject" />
+  <action id="CodeInspection.OnEditor" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.RemoveArrayFilter">
     <keyboard-shortcut first-keystroke="delete" />
@@ -28,10 +29,11 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="shift alt up" />
+    <keyboard-shortcut first-keystroke="shift alt i" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift alt down" />
+    <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
   <action id="EditorDeleteLine" />
   <action id="EditorDeleteToLineStart">
