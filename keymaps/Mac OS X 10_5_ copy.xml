@@ -13,12 +13,19 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Down">
+    <keyboard-shortcut first-keystroke="shift meta alt k" />
+  </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Up">
+    <keyboard-shortcut first-keystroke="shift meta alt i" />
+  </action>
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="CheckinProject" />
   <action id="CodeInspection.OnEditor" />
+  <action id="ConvertJavaToKotlin" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.RemoveArrayFilter">
     <keyboard-shortcut first-keystroke="delete" />
@@ -61,6 +68,14 @@
     <keyboard-shortcut first-keystroke="ctrl a" />
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="meta alt j" />
+  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -69,6 +84,12 @@
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="shift meta alt l" />
   </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="meta alt i" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="meta alt k" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl p" />
@@ -76,7 +97,7 @@
   </action>
   <action id="GotoBookmark1" />
   <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
@@ -95,7 +116,10 @@
   </action>
   <action id="QuickChangeScheme" />
   <action id="ReformatCode" />
+  <action id="RunInspection" />
+  <action id="SelectNextOccurrence" />
   <action id="ShowReformatFileDialog" />
+  <action id="SurroundWithLiveTemplate" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
   <action id="Vcs.ReformatCommitMessage" />
