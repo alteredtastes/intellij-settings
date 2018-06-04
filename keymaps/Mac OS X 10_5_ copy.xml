@@ -96,9 +96,7 @@
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="GotoBookmark1" />
-  <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="ctrl g" />
-  </action>
+  <action id="GotoLine" />
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -117,7 +115,6 @@
   <action id="QuickChangeScheme" />
   <action id="ReformatCode" />
   <action id="RunInspection" />
-  <action id="SelectNextOccurrence" />
   <action id="ShowReformatFileDialog" />
   <action id="SurroundWithLiveTemplate" />
   <action id="Vcs.Log.FocusTextFilter" />
