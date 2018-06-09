@@ -101,6 +101,9 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="Hotswap">
+    <keyboard-shortcut first-keystroke="meta f1" />
+  </action>
   <action id="InsertLiveTemplate" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta k" />
@@ -115,6 +118,7 @@
   <action id="QuickChangeScheme" />
   <action id="ReformatCode" />
   <action id="RunInspection" />
+  <action id="ShowErrorDescription" />
   <action id="ShowReformatFileDialog" />
   <action id="SurroundWithLiveTemplate" />
   <action id="Vcs.Log.FocusTextFilter" />
