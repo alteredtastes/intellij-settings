@@ -32,8 +32,8 @@
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
-      <mask>*.def</mask>
       <mask>*.java</mask>
+      <mask>*.def</mask>
     </recentFileMasks>
   </component>
 </application>
