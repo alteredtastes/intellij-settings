@@ -96,7 +96,9 @@
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="GotoBookmark1" />
-  <action id="GotoLine" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -105,6 +107,7 @@
     <keyboard-shortcut first-keystroke="meta f1" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="MarkdownNavigator.InsertLink" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
