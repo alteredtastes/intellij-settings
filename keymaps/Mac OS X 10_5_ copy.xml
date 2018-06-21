@@ -97,13 +97,17 @@
   </action>
   <action id="GotoBookmark1" />
   <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="Hotswap">
+    <keyboard-shortcut first-keystroke="meta f1" />
+  </action>
   <action id="InsertLiveTemplate" />
+  <action id="MarkdownNavigator.InsertLink" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
@@ -117,7 +121,7 @@
   <action id="QuickChangeScheme" />
   <action id="ReformatCode" />
   <action id="RunInspection" />
-  <action id="SelectNextOccurrence" />
+  <action id="ShowErrorDescription" />
   <action id="ShowReformatFileDialog" />
   <action id="SurroundWithLiveTemplate" />
   <action id="Vcs.Log.FocusTextFilter" />
