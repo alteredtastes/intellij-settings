@@ -24,6 +24,7 @@
       <mask>*</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
+      <mask>*.tsx</mask>
       <mask>*.png</mask>
       <mask>*.pn</mask>
       <mask>*.p</mask>
@@ -31,11 +32,10 @@
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
+      <mask>*.scss</mask>
       <mask>*.def</mask>
       <mask>*.java</mask>
       <mask>*Editor.tsx</mask>
-      <mask>*.tsx</mask>
-      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
