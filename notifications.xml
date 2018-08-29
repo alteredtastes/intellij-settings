@@ -1,9 +1,6 @@
 <application>
   <component name="NotificationConfiguration">
     <notification groupId="Android/Gradle Notification Group" shouldLog="false" />
-    <notification groupId="Gradle Import" displayType="NONE" shouldLog="false" />
-    <notification groupId="Gradle sync" displayType="NONE" shouldLog="false" />
-    <notification groupId="Grape" displayType="NONE" shouldLog="false" />
     <notification groupId="IDE and Plugin Updates" displayType="NONE" shouldLog="false" />
     <notification groupId="Outdated Kotlin Runtime" displayType="NONE" shouldLog="false" />
   </component>
