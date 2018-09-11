@@ -6,6 +6,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.java" />
     <recentFileMasks>
       <mask>*.as</mask>
       <mask>*.css</mask>
@@ -34,9 +35,9 @@
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.def</mask>
-      <mask>*.java</mask>
       <mask>*Editor.tsx</mask>
       <mask>*.scss</mask>
+      <mask>*.java</mask>
     </recentFileMasks>
   </component>
 </application>
