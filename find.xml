@@ -1,11 +1,14 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.tsx" />
     <recentFileMasks>
       <mask>*.as</mask>
       <mask>*.css</mask>
@@ -25,7 +28,6 @@
       <mask>*</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
-      <mask>*.tsx</mask>
       <mask>*.png</mask>
       <mask>*.pn</mask>
       <mask>*.p</mask>
@@ -37,6 +39,7 @@
       <mask>*Editor.tsx</mask>
       <mask>*.scss</mask>
       <mask>*.java</mask>
+      <mask>*.tsx</mask>
     </recentFileMasks>
   </component>
 </application>
