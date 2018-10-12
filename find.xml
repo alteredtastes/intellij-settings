@@ -4,37 +4,16 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>*.mxm</mask>
-      <mask>*.mx</mask>
-      <mask>*.m</mask>
-      <mask>*.jav</mask>
-      <mask>*.ja</mask>
-      <mask>*.j</mask>
-      <mask>pom.x</mask>
-      <mask>pom.xml</mask>
-      <mask>pom.</mask>
-      <mask>pom</mask>
-      <mask>po</mask>
-      <mask>p</mask>
-      <mask>*</mask>
-      <mask>*.t</mask>
-      <mask>*.png</mask>
-      <mask>*.pn</mask>
-      <mask>*.p</mask>
-      <mask>*.</mask>
-      <mask>*.s</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
-      <mask>*.def</mask>
-      <mask>*Editor.tsx</mask>
-      <mask>*.scss</mask>
-      <mask>*.java</mask>
-      <mask>*.ts</mask>
-      <mask>*.tsx</mask>
-    </recentFileMasks>
+    <option name="FILE_MASK" value="*.tsx" />
+    <mask>*.properties</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.xml</mask>
+    <mask>*.java</mask>
+    <mask>*.js</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+    <mask>*.tsx</mask>
   </component>
 </application>
