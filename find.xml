@@ -4,7 +4,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.tsx" />
+    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
       <mask>*.as</mask>
       <mask>*.css</mask>
@@ -33,9 +33,9 @@
       <mask>*.scs</mask>
       <mask>*.def</mask>
       <mask>*Editor.tsx</mask>
-      <mask>*.scss</mask>
       <mask>*.java</mask>
       <mask>*.tsx</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
