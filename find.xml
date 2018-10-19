@@ -2,39 +2,19 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>*.mxm</mask>
-      <mask>*.mx</mask>
-      <mask>*.m</mask>
-      <mask>*.jav</mask>
-      <mask>*.ja</mask>
-      <mask>*.j</mask>
-      <mask>pom.x</mask>
-      <mask>pom.xml</mask>
-      <mask>pom.</mask>
-      <mask>pom</mask>
-      <mask>po</mask>
-      <mask>p</mask>
-      <mask>*</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
-      <mask>*.png</mask>
-      <mask>*.pn</mask>
-      <mask>*.p</mask>
-      <mask>*.</mask>
-      <mask>*.s</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
-      <mask>*.def</mask>
-      <mask>*Editor.tsx</mask>
-      <mask>*.java</mask>
-      <mask>*.tsx</mask>
-      <mask>*.scss</mask>
-    </recentFileMasks>
+    <mask>*.properties</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.xml</mask>
+    <mask>*.java</mask>
+    <mask>*.js</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+    <mask>*.tsx</mask>
   </component>
 </application>

@@ -1,0 +1,13 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="bla">
+      <action id="SelectNextOccurrence" />
+      <action id="SelectNextOccurrence" />
+      <action id="SelectNextOccurrence" />
+      <action id="UnselectPreviousOccurrence" />
+      <action id="EditorLeft" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorEnter" />
+    </macro>
+  </component>
+</application>
