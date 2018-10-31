@@ -14,6 +14,7 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
+    <mask>*.ts</mask>
     <mask>*.tsx</mask>
   </component>
 </application>
