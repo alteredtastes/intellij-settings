@@ -9,5 +9,23 @@
       <action id="EditorPreviousWord" />
       <action id="EditorEnter" />
     </macro>
+    <macro name="sc-css-syntax-wrap">
+      <action id="EditorRight" />
+      <typing text-keycode="0:1;0:1;67:0;83:0;83:0;192:0">${css`</typing>
+      <action id="EditorRightWithSelection" />
+      <action id="EditorRightWithSelection" />
+      <action id="EditorCut" />
+      <action id="EditorLeftWithSelection" />
+      <action id="SelectNextOccurrence" />
+      <action id="EditorLeft" />
+      <action id="EditorPaste" />
+      <action id="UnselectPreviousOccurrence" />
+      <action id="EditorRight" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+    </macro>
+    <macro name="ts-sc-transformer">
+      <action id="EditorPaste" />
+    </macro>
   </component>
 </application>
