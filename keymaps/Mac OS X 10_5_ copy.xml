@@ -13,12 +13,8 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="Arrangement.Rule.Match.Condition.Move.Down">
-    <keyboard-shortcut first-keystroke="shift meta alt k" />
-  </action>
-  <action id="Arrangement.Rule.Match.Condition.Move.Up">
-    <keyboard-shortcut first-keystroke="shift meta alt i" />
-  </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -108,6 +104,12 @@
   </action>
   <action id="InsertLiveTemplate" />
   <action id="MarkdownNavigator.InsertLink" />
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="shift meta alt k" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="shift meta alt i" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
