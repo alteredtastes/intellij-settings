@@ -1,11 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="localWholeWordsOnly" value="true" />
-    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
+    <option name="customScope" value="Changed Files" />
+    <option name="defaultScopeName" value="Changed Files" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="Changed Files" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -15,9 +13,10 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.ts</mask>
     <mask>*.ts, !*.tsx</mask>
     <mask>*.ts, *.tsx</mask>
     <mask>*.tsx</mask>
+    <mask>*.scss</mask>
+    <mask>*.ts</mask>
   </component>
 </application>

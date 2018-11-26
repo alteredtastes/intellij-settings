@@ -13,12 +13,8 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="Arrangement.Rule.Match.Condition.Move.Down">
-    <keyboard-shortcut first-keystroke="shift meta alt k" />
-  </action>
-  <action id="Arrangement.Rule.Match.Condition.Move.Up">
-    <keyboard-shortcut first-keystroke="shift meta alt i" />
-  </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -35,6 +31,7 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorAddRectangularSelectionOnMouseDrag" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift alt i" />
   </action>
@@ -99,6 +96,11 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <mouse-shortcut keystroke="shift button2" />
+  </action>
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -108,6 +110,14 @@
   </action>
   <action id="InsertLiveTemplate" />
   <action id="MarkdownNavigator.InsertLink" />
+  <action id="MethodDown">
+    <mouse-shortcut keystroke="shift meta alt button1" />
+    <keyboard-shortcut first-keystroke="shift meta alt k" />
+  </action>
+  <action id="MethodUp">
+    <mouse-shortcut keystroke="shift meta button1" />
+    <keyboard-shortcut first-keystroke="shift meta alt i" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
@@ -119,6 +129,9 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
+  </action>
   <action id="ReformatCode" />
   <action id="RunInspection" />
   <action id="ShowErrorDescription" />
