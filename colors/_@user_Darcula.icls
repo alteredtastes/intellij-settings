@@ -4,7 +4,7 @@
     <property name="created">2018-01-31T20:31:03</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2018-11-21T11:52:01</property>
+    <property name="modified">2018-11-27T14:46:31</property>
     <property name="originalScheme">Darcula</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -57946,7 +57946,6 @@
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="52503a" />
-        <option name="EFFECT_COLOR" value="be9117" />
         <option name="ERROR_STRIPE_COLOR" value="be9117" />
       </value>
     </option>
