@@ -21,5 +21,6 @@
     <mask>*.scss</mask>
     <mask>*.ts</mask>
     <mask>*.scss, !*.log</mask>
+    <mask>*.def, !*.log</mask>
   </component>
 </application>
