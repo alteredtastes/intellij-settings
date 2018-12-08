@@ -6,7 +6,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
-    <option name="FILE_MASK" value="!*.log" />
+    <option name="FILE_MASK" value="*.ts, !*.log" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -24,5 +24,6 @@
     <mask>*.scss, !*.log</mask>
     <mask>*.def, !*.log</mask>
     <mask>!*.log</mask>
+    <mask>*.ts, !*.log</mask>
   </component>
 </application>
