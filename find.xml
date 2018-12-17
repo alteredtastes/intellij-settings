@@ -4,7 +4,6 @@
     <option name="defaultScopeName" value="Changed Files" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
-    <option name="FILE_MASK" value="!*.log, *.java" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -26,5 +25,6 @@
     <mask>!*.log, *.def</mask>
     <mask>!*.log, *.tsx</mask>
     <mask>!*.log, *.java</mask>
+    <mask>!*.log, *.ts</mask>
   </component>
 </application>
