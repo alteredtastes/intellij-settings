@@ -1,5 +1,5 @@
 <application>
-  <component name="NotificationConfiguration">
+  <component name="NotificationConfiguration" systemNotifications="false">
     <notification groupId="Android/Gradle Notification Group" shouldLog="false" />
     <notification groupId="IDE and Plugin Updates" displayType="NONE" shouldLog="false" />
     <notification groupId="Outdated Kotlin Runtime" displayType="NONE" shouldLog="false" />
