@@ -21,8 +21,9 @@
     <mask>*.xml</mask>
     <mask>*.ts, !*.log</mask>
     <mask>!*.log</mask>
-    <mask>!*.log, *.tsx</mask>
     <mask>!*.log, *.def</mask>
     <mask>!*.log, *.java</mask>
+    <mask>!*.log, *.ts</mask>
+    <mask>!*.log, *.tsx</mask>
   </component>
 </application>
