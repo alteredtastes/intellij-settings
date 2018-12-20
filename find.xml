@@ -1,8 +1,11 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
+    <option name="FILE_MASK" value="!*.log, *.java" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -23,7 +26,7 @@
     <mask>!*.log</mask>
     <mask>!*.log, *.tsx</mask>
     <mask>!*.log, *.ts</mask>
-    <mask>!*.log, *.java</mask>
     <mask>!*.log, *.def</mask>
+    <mask>!*.log, *.java</mask>
   </component>
 </application>
