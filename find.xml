@@ -6,7 +6,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WITH_SUBDIRECTORIES" value="false" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
-    <option name="FILE_MASK" value="!*.log, *.tsx" />
+    <option name="FILE_MASK" value="!*.log, *.ts" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -25,9 +25,9 @@
     <mask>*.xml</mask>
     <mask>*.ts, !*.log</mask>
     <mask>!*.log</mask>
-    <mask>!*.log, *.ts</mask>
     <mask>!*.log, *.java</mask>
     <mask>!*.log, *.def</mask>
     <mask>!*.log, *.tsx</mask>
+    <mask>!*.log, *.ts</mask>
   </component>
 </application>
