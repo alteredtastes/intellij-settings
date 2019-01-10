@@ -5,7 +5,7 @@
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
-    <option name="FILE_MASK" value="!*.log, *.scss" />
+    <option name="FILE_MASK" value="!*.log, *.ts, *.tsx" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -30,5 +30,6 @@
     <mask>!*.log, *.tsx</mask>
     <mask>!*.log, *.tsx, *ts</mask>
     <mask>!*.log, *.scss</mask>
+    <mask>!*.log, *.ts, *.tsx</mask>
   </component>
 </application>
