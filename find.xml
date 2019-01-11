@@ -33,8 +33,8 @@
     <mask>!*.log, *.tsx, *ts</mask>
     <mask>!*.log, *.scss</mask>
     <mask>!*.log, *.ts, *.tsx</mask>
-    <mask>!*.log, !*.ts, !*.tsx, *.scss</mask>
     <mask>!*.log, !*.ts, *.tsx, *.scss</mask>
+    <mask>!*.log, !*.ts, !*.tsx, *.scss</mask>
     <mask>!*.log, *.ts, *.tsx, *.scss</mask>
   </component>
 </application>
