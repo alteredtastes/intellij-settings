@@ -3,8 +3,11 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
+    <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
+    <option name="FILE_MASK" value="!*.tsx, !*.ts, *.scss, !*.log " />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -27,5 +30,6 @@
     <mask>!*.log, *.ts</mask>
     <mask>!*.log, *.java</mask>
     <mask>!*.log, *.tsx</mask>
+    <mask>!*.tsx, !*.ts, *.scss, !*.log</mask>
   </component>
 </application>
