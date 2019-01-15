@@ -24,8 +24,5 @@
       <action id="EditorBackSpace" />
       <action id="EditorBackSpace" />
     </macro>
-    <macro name="ts-sc-transformer">
-      <action id="EditorPaste" />
-    </macro>
   </component>
 </application>
