@@ -3,9 +3,11 @@
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
     <option name="localCaseSensitive" value="true" />
+    <option name="localWholeWordsOnly" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
-    <option name="FILE_MASK" value="*.java, *.tsx, *.ts, !*.scss, !*.def, !*.log " />
+    <option name="FILE_MASK" value="!*.log, *.ts, *.tsx, *.scss" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -24,14 +26,15 @@
     <mask>*.xml</mask>
     <mask>*.ts, !*.log</mask>
     <mask>!*.log</mask>
+    <mask>!*.log, *.java</mask>
     <mask>!*.log, *.def</mask>
     <mask>!*.log, *.ts</mask>
-    <mask>!*.log, *.java</mask>
     <mask>!*.log, *.tsx</mask>
-    <mask>!*.tsx, !*.ts, *.scss, !*.log</mask>
-    <mask>*.tsx, *.ts, *.scss, !*.log</mask>
-    <mask>!*.tsx, !*.ts, !*.scss, !*.def, !*.log</mask>
-    <mask>*.tsx, *.ts, !*.scss, !*.def, !*.log</mask>
-    <mask>*.java, *.tsx, *.ts, !*.scss, !*.def, !*.log</mask>
+    <mask>!*.log, *.tsx, *ts</mask>
+    <mask>!*.log, *.scss</mask>
+    <mask>!*.log, *.ts, *.tsx</mask>
+    <mask>!*.log, !*.ts, *.tsx, *.scss</mask>
+    <mask>!*.log, !*.ts, !*.tsx, *.scss</mask>
+    <mask>!*.log, *.ts, *.tsx, *.scss</mask>
   </component>
 </application>
