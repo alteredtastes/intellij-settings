@@ -1,13 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
     <option name="localCaseSensitive" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
-    <mask>*.css</mask>
+    <option name="FILE_MASK" value="!*.java, *.def, !*.ts, *.tsx, *.scss, !*.log" />
     <mask>*.mxml</mask>
     <mask>*.ts, !*.tsx</mask>
     <mask>*.ts, *.tsx</mask>
@@ -37,5 +35,6 @@
     <mask>!*.java, !*.ts, !*.tsx, *.scss, !*.log</mask>
     <mask>!*.java, *.ts, *.tsx, *.scss, !*.log</mask>
     <mask>!*.java, *.def, *.ts, *.tsx, *.scss, !*.log</mask>
+    <mask>!*.java, *.def, !*.ts, *.tsx, *.scss, !*.log</mask>
   </component>
 </application>
