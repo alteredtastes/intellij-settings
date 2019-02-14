@@ -1,0 +1,10 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="LESS" injector-id="js">
+      <display-name>styled-components withProps</display-name>
+      <prefix>div {</prefix>
+      <suffix>}</suffix>
+      <place><![CDATA[stringTemplate().withParent(taggedTemplate(jsExpression().withChild(jsReferenceExpression().withNameStartingWith("withProps"))))]]></place>
+    </injection>
+  </component>
+</application>
