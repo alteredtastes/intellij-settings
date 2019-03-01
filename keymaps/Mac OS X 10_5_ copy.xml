@@ -24,6 +24,9 @@
   </action>
   <action id="CheckinProject" />
   <action id="CodeInspection.OnEditor" />
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
   <action id="ConvertJavaToKotlin" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.RemoveArrayFilter">
@@ -94,6 +97,9 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="GotoBookmark1" />
   <action id="GotoLine">
