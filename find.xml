@@ -3,7 +3,7 @@
     <option name="customScope" value="Changed Files" />
     <option name="defaultScopeName" value="Changed Files" />
     <option name="SEARCH_SCOPE" value="Changed Files" />
-    <mask>*.ts, *.tsx</mask>
+    <option name="FILE_MASK" value="!*.java, !*.def, !*.ts, !*.tsx, *.scss, !*.log, *.xml" />
     <mask>*.tsx</mask>
     <mask>*.scss</mask>
     <mask>*.ts</mask>
@@ -33,5 +33,6 @@
     <mask>!*.java, *.def, *.ts, *.tsx, *.scss, !*.log</mask>
     <mask>*.java, *.def, *.ts, *.tsx, *.scss, !*.log</mask>
     <mask>*.java, *.def, *.ts, *.tsx, *.scss, !*.log, *.xml</mask>
+    <mask>!*.java, !*.def, !*.ts, !*.tsx, *.scss, !*.log, *.xml</mask>
   </component>
 </application>
