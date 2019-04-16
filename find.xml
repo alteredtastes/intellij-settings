@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.def, !*.log</mask>
+    <option name="FILE_MASK" value="!*.js, *.scss" />
     <mask>*.xml</mask>
     <mask>*.ts, !*.log</mask>
     <mask>!*.log</mask>
@@ -35,5 +35,6 @@
     <mask>*.java, *.def, *.ts, !*.tsx, *.scss, !*.log, !*.xml</mask>
     <mask>*.java, *.def, *.ts, *.tsx, *.scss, !*.log, !*.xml</mask>
     <mask>!*.js</mask>
+    <mask>!*.js, *.scss</mask>
   </component>
 </application>
