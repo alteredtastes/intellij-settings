@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
+    <option name="FILE_MASK" value="!*.js" />
     <mask>*.ts, !*.log</mask>
     <mask>!*.log</mask>
     <mask>!*.log, *.java</mask>
@@ -31,8 +31,8 @@
     <mask>!*.java, !*.def, !*.ts, !*.tsx, *.scss, !*.log, !*.xml</mask>
     <mask>*.java, *.def, *.ts, !*.tsx, *.scss, !*.log, !*.xml</mask>
     <mask>*.java, *.def, *.ts, *.tsx, *.scss, !*.log, !*.xml</mask>
-    <mask>!*.js</mask>
     <mask>!*.js, *.scss</mask>
     <mask>*.js</mask>
+    <mask>!*.js</mask>
   </component>
 </application>
