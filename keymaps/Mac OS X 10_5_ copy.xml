@@ -147,6 +147,9 @@
   <action id="RunInspection" />
   <action id="ShowErrorDescription" />
   <action id="ShowReformatFileDialog" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="SurroundWithLiveTemplate" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
