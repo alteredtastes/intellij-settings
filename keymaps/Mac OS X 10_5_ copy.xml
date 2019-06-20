@@ -127,6 +127,7 @@
     <mouse-shortcut keystroke="shift meta button1" />
     <keyboard-shortcut first-keystroke="shift meta alt i" />
   </action>
+  <action id="MinimizeCurrentWindow" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
