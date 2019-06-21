@@ -14,5 +14,6 @@
     <mask>*.mxml</mask>
     <mask>*.ts</mask>
     <mask>*.def</mask>
+    <mask>*.</mask>
   </component>
 </application>
