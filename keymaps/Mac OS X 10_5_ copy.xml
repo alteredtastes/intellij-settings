@@ -22,12 +22,17 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="CheckinProject" />
   <action id="CodeInspection.OnEditor" />
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
   <action id="ConvertJavaToKotlin" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.RemoveArrayFilter">
     <keyboard-shortcut first-keystroke="delete" />
