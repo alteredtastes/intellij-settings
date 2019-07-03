@@ -11,6 +11,7 @@
       <mapping pattern="sharedComponents" type="TypeScript" />
       <mapping pattern="uxComponents" type="TypeScript" />
       <mapping pattern="CompanyTools" type="TypeScript JSX" />
+      <mapping pattern="ChannelDetailsTab" type="TypeScript JSX" />
       <mapping pattern="BillingTableHeader" type="TypeScript JSX" />
       <mapping pattern="IdReverter" type="TypeScript JSX" />
       <mapping pattern="ChannelTabs" type="TypeScript JSX" />
