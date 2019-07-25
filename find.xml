@@ -17,5 +17,6 @@
     <mask>*.def</mask>
     <mask>*.</mask>
     <mask>*.ts</mask>
+    <mask>*.tsx</mask>
   </component>
 </application>
