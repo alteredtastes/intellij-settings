@@ -110,6 +110,12 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="ctrl meta alt k" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="ctrl meta alt i" />
+  </action>
   <action id="GotoTypeDeclaration">
     <keyboard-shortcut first-keystroke="shift meta b" />
     <keyboard-shortcut first-keystroke="shift ctrl b" />
