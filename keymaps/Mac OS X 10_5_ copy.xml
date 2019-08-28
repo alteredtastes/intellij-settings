@@ -78,11 +78,11 @@
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="alt left" />
-    <keyboard-shortcut first-keystroke="meta alt j" />
+    <keyboard-shortcut first-keystroke="ctrl meta j" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
@@ -90,7 +90,8 @@
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="EditorSelectLine">
-    <keyboard-shortcut first-keystroke="shift meta alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta l" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta j" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta alt i" />
@@ -128,7 +129,9 @@
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="meta f1" />
   </action>
-  <action id="InsertLiveTemplate" />
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
   <action id="MarkdownNavigator.InsertLink" />
   <action id="MethodDown">
     <mouse-shortcut keystroke="shift meta alt button1" />

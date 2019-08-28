@@ -10,10 +10,67 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="template function" value="${() =&gt; $SELECTION$}" description="surround with ${() =&gt; ...}" toReformat="false" toShortenFQNames="true">
+  <template name="template function" value="${() =&gt; $SELECTION$}" description="surround with ${() =&gt; ...}" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="CSS" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="B" value="{$SELECTION$}" shortcut="NONE" description="Surround with {}" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="P" value="($SELECTION$)" shortcut="NONE" description="Surround with ()" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="C" value="java.util.concurrent.Callable&lt;$RET$&gt; callable = new java.util.concurrent.Callable&lt;$RET$&gt;() {&#10;  public $RET$ call() throws Exception {&#10;    $SELECTION$&#10;    $END$ &#10;  }&#10;};" description="Surround with Callable" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="RET" expression="" defaultValue="&quot;java.lang.Object&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="RL" value="$LOCK$.readLock().lock();&#10;try { &#10;  $SELECTION$&#10;} finally {&#10;  $LOCK$.readLock().unlock();&#10;}&#10;" description="Surround with ReadWriteLock.readLock" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="LOCK" expression="variableOfType(&quot;java.util.concurrent.locks.ReadWriteLock&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="WL" value="$LOCK$.writeLock().lock();&#10;try { &#10;  $SELECTION$&#10;} finally {&#10;  $LOCK$.writeLock().unlock();&#10;}&#10;" description="Surround with ReadWriteLock.writeLock" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="LOCK" expression="variableOfType(&quot;java.util.concurrent.locks.ReadWriteLock&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="I" value="for ($ELEMENT_TYPE$ $VAR$ : $SELECTION$) {&#10;  $END$&#10;}&#10;" description="Iterate Iterable | Array in J2SDK 5.0 syntax" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ELEMENT_TYPE" expression="iterableComponentType(SELECTION)" defaultValue="&quot;java.lang.Object&quot;" alwaysStopAt="false" />
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="connect&lt;...&gt;(...)" value="export default connect&lt;$Props$, $InlineProps$&gt;(&#10;    $ComponentName$,&#10;    [],&#10;    (props) =&gt; {&#10;        return {};&#10;    }&#10;);" description="connect and export highlighted component name" toReformat="false" toShortenFQNames="true">
+    <variable name="Props" expression="" defaultValue="{}" alwaysStopAt="true" />
+    <variable name="InlineProps" expression="" defaultValue="{}" alwaysStopAt="true" />
+    <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="functional component export" value="export const $ComponentName$ = (props:$ComponentProps$) =&gt; {&#10;    return $render$;&#10;};" description="export const Comp = (props) =&gt; { ... };" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="" defaultValue="MyComponent" alwaysStopAt="true" />
+    <variable name="ComponentProps" expression="" defaultValue="{}" alwaysStopAt="true" />
+    <variable name="render" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="component export" value="export class $ComponentName$ extends React.Component&lt;$MyProps$, $MyState$&gt; {&#10;    render() {&#10;        return $return$&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="" defaultValue="MyComponent" alwaysStopAt="true" />
+    <variable name="MyProps" expression="" defaultValue="{}" alwaysStopAt="true" />
+    <variable name="MyState" expression="" defaultValue="{}" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pure component export" value="export class $ComponentName$ extends React.PureComponent&lt;$MyProps$, $MyState$&gt; {&#10;    render() {&#10;        return $return$&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MyProps" expression="" defaultValue="{}" alwaysStopAt="true" />
+    <variable name="MyState" expression="" defaultValue="{}" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
