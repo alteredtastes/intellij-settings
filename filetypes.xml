@@ -5,18 +5,18 @@
       <mapping pattern="make" type="Bash" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="buildscript" type="PLAIN_TEXT" />
-      <mapping pattern="KeyValueDataInspectorStore" type="TypeScript" />
-      <mapping pattern="LineChannelStore" type="TypeScript" />
       <mapping pattern="sendAppToolLayout" type="TypeScript" />
+      <mapping pattern="LineChannelStore" type="TypeScript" />
       <mapping pattern="channelBridge" type="TypeScript" />
-      <mapping pattern="sharedComponents" type="TypeScript" />
+      <mapping pattern="KeyValueDataInspectorStore" type="TypeScript" />
       <mapping pattern="uxComponents" type="TypeScript" />
-      <mapping pattern="CompanyTools" type="TypeScript JSX" />
-      <mapping pattern="ChannelDetailsTab" type="TypeScript JSX" />
-      <mapping pattern="BillingTableHeader" type="TypeScript JSX" />
-      <mapping pattern="IdReverter" type="TypeScript JSX" />
-      <mapping pattern="ChannelTabs" type="TypeScript JSX" />
+      <mapping pattern="sharedComponents" type="TypeScript" />
       <mapping pattern="LayoutEditor" type="TypeScript JSX" />
+      <mapping pattern="CompanyTools" type="TypeScript JSX" />
+      <mapping pattern="IdReverter" type="TypeScript JSX" />
+      <mapping pattern="BillingTableHeader" type="TypeScript JSX" />
+      <mapping pattern="ChannelDetailsTab" type="TypeScript JSX" />
+      <mapping pattern="ChannelTabs" type="TypeScript JSX" />
     </extensionMap>
   </component>
 </application>

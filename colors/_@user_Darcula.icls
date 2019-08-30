@@ -4,7 +4,7 @@
     <property name="created">2018-01-31T20:31:03</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.2.0.0</property>
-    <property name="modified">2018-11-27T14:46:31</property>
+    <property name="modified">2019-08-30T10:43:39</property>
     <property name="originalScheme">Darcula</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -15,6 +15,24 @@
     <option name="CARET_ROW_COLOR" value="3d4136" />
   </colors>
   <attributes>
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="f59d34" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="db9c" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="4b6ff" />
+      </value>
+    </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -24,6 +42,9 @@
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value />
+    </option>
+    <option name="KOTLIN_LABEL">
       <value />
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_ABBREVIATED_TEXT">
@@ -57941,6 +57962,17 @@
       <value>
         <option name="BACKGROUND" value="4c174d" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="3b514d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_def">
+      <value>
+        <option name="FOREGROUND" value="c0e74f" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
