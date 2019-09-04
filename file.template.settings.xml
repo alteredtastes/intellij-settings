@@ -2,6 +2,7 @@
   <component name="ExportableFileTemplateSettings">
     <default_templates>
       <template name="Connected React.Component.tsx" reformat="true" live-template-enabled="true" />
+      <template name="Namespace.ts" reformat="false" live-template-enabled="true" />
       <template name="Unconnected React.Component.tsx" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
