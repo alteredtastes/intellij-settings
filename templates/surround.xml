@@ -56,7 +56,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="component export" value="export class $ComponentName$ extends React.Component&lt;$MyProps$, $MyState$&gt; {&#10;    render() {&#10;        return $return$&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="component export" value="export class $ComponentName$ extends React.Component&lt;$MyProps$, $MyState$&gt; {&#10;    render() {&#10;        return $return$&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ComponentName" expression="" defaultValue="MyComponent" alwaysStopAt="true" />
     <variable name="MyProps" expression="" defaultValue="{}" alwaysStopAt="true" />
     <variable name="MyState" expression="" defaultValue="{}" alwaysStopAt="true" />
@@ -65,7 +65,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="pure component export" value="export class $ComponentName$ extends React.PureComponent&lt;$MyProps$, $MyState$&gt; {&#10;    render() {&#10;        return $return$&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="pure component export" value="export class $ComponentName$ extends React.PureComponent&lt;$MyProps$, $MyState$&gt; {&#10;    render() {&#10;        return $return$&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MyProps" expression="" defaultValue="{}" alwaysStopAt="true" />
     <variable name="MyState" expression="" defaultValue="{}" alwaysStopAt="true" />
