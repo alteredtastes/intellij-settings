@@ -14,10 +14,11 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.</mask>
-    <mask>*.tsx</mask>
     <mask>*.ts, *.tsx</mask>
-    <mask>*.def</mask>
     <mask>*.ts</mask>
+    <mask>*.tsx</mask>
+    <mask>*.scss</mask>
+    <mask>*.def</mask>
     <mask>*.java</mask>
   </component>
 </application>
