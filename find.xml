@@ -13,11 +13,11 @@
     <mask>*.mxml</mask>
     <mask>*.</mask>
     <mask>*.tsx</mask>
-    <mask>*.def</mask>
     <mask>*.ts, *.tsx</mask>
     <mask>*ViewConfig.ts</mask>
     <mask>*.java</mask>
     <mask>*.scss</mask>
     <mask>*.ts</mask>
+    <mask>*.def</mask>
   </component>
 </application>
