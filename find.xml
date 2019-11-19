@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.def" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -17,8 +18,8 @@
     <mask>*ViewConfig.ts</mask>
     <mask>*.scss</mask>
     <mask>*.ts</mask>
-    <mask>*.def</mask>
     <mask>*.java</mask>
     <mask>PatchRegistry*</mask>
+    <mask>*.def</mask>
   </component>
 </application>
