@@ -3,9 +3,7 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="fix a couple type issues, but dont upgrad ts quite yet" />
     <option name="defaultScopeName" value="fix a couple type issues, but dont upgrad ts quite yet" />
-    <option name="localCaseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="fix a couple type issues, but dont upgrad ts quite yet" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
