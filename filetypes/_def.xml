@@ -12,7 +12,4 @@
     <keywords3 keywords="enum" />
     <keywords4 keywords="response" />
   </highlighting>
-  <extensionMap>
-    <mapping ext="def" />
-  </extensionMap>
 </filetype>

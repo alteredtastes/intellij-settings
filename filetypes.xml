@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern="make" type="Bash" />
       <mapping pattern="removePunc" type="JavaScript" />
-      <removed_mapping ext="def" type="Kotlin/Native Def" />
       <mapping pattern="buildscript" type="PLAIN_TEXT" />
       <mapping pattern="KeyValueDataInspectorStore" type="TypeScript" />
       <mapping pattern="LineChannelStore" type="TypeScript" />
