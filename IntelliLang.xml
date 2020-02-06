@@ -1,5 +1,9 @@
 <application>
   <component name="LanguageInjectionConfiguration">
+    <injection language="HQL" injector-id="java">
+      <display-name>ChatboxEntityManager.createNativeQuery (io.tetrapod.persistence)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").withParameters("java.lang.String").definedInClass("io.tetrapod.persistence.ChatboxEntityManager"))]]></place>
+    </injection>
     <injection language="SQL" injector-id="java">
       <display-name>EntityManager.createNativeQuery (javax.persistence)</display-name>
       <place disabled="true"><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("createNativeQuery").withParameters("java.lang.String").definedInClass("javax.persistence.EntityManager"))]]></place>
