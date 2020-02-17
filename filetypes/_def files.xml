@@ -1,4 +1,4 @@
-<filetype binary="false" description="Definition File" name=".def">
+<filetype binary="false" description=".def files" name=".def files">
   <highlighting>
     <options>
       <option name="LINE_COMMENT" value="" />
@@ -7,9 +7,9 @@
       <option name="HEX_PREFIX" value="" />
       <option name="NUM_POSTFIXES" value="" />
     </options>
-    <keywords keywords="struct" ignore_case="false" />
-    <keywords2 keywords="request" />
-    <keywords3 keywords="enum" />
-    <keywords4 keywords="response" />
+    <keywords ignore_case="false" />
   </highlighting>
+  <extensionMap>
+    <mapping ext="def" />
+  </extensionMap>
 </filetype>
