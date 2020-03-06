@@ -1,0 +1,9 @@
+<application>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="PREVIEW" />
+    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
+  </component>
+</application>
