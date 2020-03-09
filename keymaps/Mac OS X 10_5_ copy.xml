@@ -73,6 +73,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="MinimizeCurrentWindow" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="shift meta k" />
@@ -91,5 +92,8 @@
   <action id="XDebugger.RemoveWatch">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="ZoomCurrentWindow">
+    <keyboard-shortcut first-keystroke="meta m" />
   </action>
 </keymap>
