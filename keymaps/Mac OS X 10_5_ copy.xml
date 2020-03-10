@@ -21,7 +21,14 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ChangeSplitOrientation">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="CheckinProject" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.RemoveArrayFilter">
     <keyboard-shortcut first-keystroke="delete" />
@@ -90,6 +97,9 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
   <action id="XDebugger.RemoveWatch">
