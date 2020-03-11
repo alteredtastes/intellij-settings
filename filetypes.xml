@@ -1,23 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="make" type="Bash" />
-      <mapping pattern="removePunc" type="JavaScript" />
-      <mapping pattern="buildscript" type="PLAIN_TEXT" />
-      <mapping pattern="KeyValueDataInspectorStore" type="TypeScript" />
-      <mapping pattern="LineChannelStore" type="TypeScript" />
       <mapping pattern="sendAppToolLayout" type="TypeScript" />
       <mapping pattern="channelBridge" type="TypeScript" />
       <mapping pattern="sharedComponents" type="TypeScript" />
-      <mapping pattern="HomesteadApp" type="TypeScript" />
       <mapping pattern="uxComponents" type="TypeScript" />
-      <mapping pattern="BillingTableHeader" type="TypeScript JSX" />
-      <mapping pattern="ChannelDetailsTab" type="TypeScript JSX" />
-      <mapping pattern="LayoutEditor" type="TypeScript JSX" />
-      <mapping pattern="IdReverter" type="TypeScript JSX" />
-      <mapping pattern="ChannelTabs" type="TypeScript JSX" />
-      <mapping pattern="CompanyTools" type="TypeScript JSX" />
     </extensionMap>
   </component>
 </application>

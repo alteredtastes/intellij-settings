@@ -4,7 +4,11 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
     <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
@@ -16,8 +20,6 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
-  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -25,15 +27,11 @@
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
-  <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
-  <action id="CodeInspection.OnEditor" />
-  <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="shift ctrl minus" />
-  </action>
-  <action id="ConvertJavaToKotlin" />
   <action id="CopyPaths" />
-  <action id="DatabaseView.CopyDdlAction" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
   <action id="DatabaseView.PropertiesAction" />
   <action id="Debugger.RemoveArrayFilter">
     <keyboard-shortcut first-keystroke="delete" />
@@ -42,14 +40,6 @@
   <action id="Debugger.RemoveCustomField">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
-  </action>
-  <action id="EditorAddRectangularSelectionOnMouseDrag" />
-  <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="shift alt i" />
-  </action>
-  <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="shift alt down" />
-    <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
   <action id="EditorDeleteLine" />
   <action id="EditorDeleteToLineStart">
@@ -77,77 +67,31 @@
     <keyboard-shortcut first-keystroke="ctrl a" />
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="ctrl meta l" />
-  </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="alt left" />
-    <keyboard-shortcut first-keystroke="ctrl meta j" />
-  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl f" />
     <keyboard-shortcut first-keystroke="meta l" />
-  </action>
-  <action id="EditorSelectLine">
-    <keyboard-shortcut first-keystroke="shift ctrl meta l" />
-    <keyboard-shortcut first-keystroke="shift ctrl meta j" />
-  </action>
-  <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="meta alt i" />
-  </action>
-  <action id="EditorUnSelectWord">
-    <keyboard-shortcut first-keystroke="meta alt k" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
-  <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="shift ctrl equals" />
-  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoBookmark1" />
-  <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="ctrl l" />
-  </action>
-  <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="ctrl meta alt k" />
-  </action>
-  <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="ctrl meta alt i" />
-  </action>
-  <action id="GotoTypeDeclaration">
-    <keyboard-shortcut first-keystroke="shift meta b" />
-    <keyboard-shortcut first-keystroke="shift ctrl b" />
-    <mouse-shortcut keystroke="shift button2" />
-  </action>
+  <action id="GotoLine" />
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="Hotswap">
-    <keyboard-shortcut first-keystroke="meta f1" />
-  </action>
-  <action id="InsertLiveTemplate">
-    <keyboard-shortcut first-keystroke="meta alt l" />
-  </action>
-  <action id="MarkdownNavigator.InsertLink" />
-  <action id="MethodDown">
-    <mouse-shortcut keystroke="shift meta alt button1" />
-    <keyboard-shortcut first-keystroke="shift meta alt k" />
-  </action>
-  <action id="MethodUp">
-    <mouse-shortcut keystroke="shift meta button1" />
-    <keyboard-shortcut first-keystroke="shift meta alt i" />
-  </action>
+  <action id="InsertLiveTemplate" />
   <action id="MinimizeCurrentWindow" />
   <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
   <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="ParameterInfo" />
@@ -156,24 +100,11 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="QuickChangeScheme" />
-  <action id="QuickEvaluateExpression">
-    <keyboard-shortcut first-keystroke="meta alt f8" />
-  </action>
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
-  </action>
-  <action id="RunInspection" />
-  <action id="ShowErrorDescription" />
-  <action id="ShowReformatFileDialog" />
-  <action id="SplitVertically">
+  <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
-  <action id="SurroundWithLiveTemplate" />
-  <action id="TodoViewGroupByShowModules" />
-  <action id="TodoViewGroupByShowPackages" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
-  <action id="Vcs.ReformatCommitMessage" />
   <action id="XDebugger.RemoveWatch">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />

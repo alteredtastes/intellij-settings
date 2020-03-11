@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scheme name="Solarized Dark" version="1" parent_scheme="Default">
+<scheme name="Solarized Dark (Darcula)" version="1" parent_scheme="Darcula">
   <colors>
     <option name="ADDED_LINES_COLOR" value="baffba" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
@@ -12,7 +12,7 @@
     <option name="LINE_NUMBERS_COLOR" value="586e75" />
     <option name="METHOD_SEPARATORS_COLOR" value="73642" />
     <option name="MODIFIED_LINES_COLOR" value="99ccff" />
-    <option name="NOTIFICATION_BACKGROUND" value="eee8d5" />
+    <option name="NOTIFICATION_BACKGROUND" value="73642" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="73642" />
     <option name="SELECTED_INDENT_GUIDE" value="586e75" />
@@ -3848,5 +3848,5 @@
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
-  </attributes>
+  <option name="DEFAULT_STATIC_METHOD"><value><option name="FONT_TYPE" value="2" /></value></option><option name="DEFAULT_FUNCTION_DECLARATION"><value><option name="FOREGROUND" value="839496" /></value></option><option name="DEFAULT_INSTANCE_METHOD"><value><option name="FOREGROUND" value="839496" /></value></option></attributes>
 </scheme>
