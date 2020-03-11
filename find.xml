@@ -20,7 +20,7 @@
     <mask>*.scss</mask>
     <mask>*.ts</mask>
     <mask>PatchRegistry*</mask>
-    <mask>*.def</mask>
     <mask>*.java</mask>
+    <mask>*.def</mask>
   </component>
 </application>
