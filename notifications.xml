@@ -3,5 +3,6 @@
     <notification groupId="Framework Detection" displayType="NONE" />
     <notification groupId="IDE and Plugin Updates" displayType="NONE" shouldLog="false" />
     <notification groupId="Vcs Important Messages" />
+    <notification groupId="Vcs Messages" />
   </component>
 </application>
