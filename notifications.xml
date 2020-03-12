@@ -1,5 +1,5 @@
 <application>
-  <component name="NotificationConfiguration" systemNotifications="false">
+  <component name="NotificationConfiguration" showBalloons="false" systemNotifications="false">
     <notification groupId="Framework Detection" displayType="NONE" />
     <notification groupId="IDE and Plugin Updates" displayType="NONE" shouldLog="false" />
     <notification groupId="Vcs Important Messages" />
