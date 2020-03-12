@@ -1,10 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <removed_mapping ext="def" approved="true" type="Kotlin/Native Def" />
       <mapping pattern="sendAppToolLayout" type="TypeScript" />
-      <mapping pattern="channelBridge" type="TypeScript" />
       <mapping pattern="sharedComponents" type="TypeScript" />
       <mapping pattern="uxComponents" type="TypeScript" />
+      <mapping pattern="channelBridge" type="TypeScript" />
+      <removed_mapping ext="def" approved="true" type="Kotlin/Native Def" />
     </extensionMap>
   </component>
 </application>
