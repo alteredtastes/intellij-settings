@@ -13,6 +13,9 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta alt v" />
+  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift alt a" />
   </action>
@@ -78,6 +81,9 @@
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Github.Create.Pull.Request">
+    <keyboard-shortcut first-keystroke="meta alt c" />
+  </action>
   <action id="GotoBookmark1" />
   <action id="GotoLine" />
   <action id="Graph.Delete">
@@ -85,6 +91,8 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceConstant" />
+  <action id="IntroduceVariable" />
   <action id="MinimizeCurrentWindow" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
