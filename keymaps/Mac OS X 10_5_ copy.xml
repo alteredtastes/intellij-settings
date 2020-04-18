@@ -92,6 +92,9 @@
     <keyboard-shortcut first-keystroke="meta alt c" />
   </action>
   <action id="GotoBookmark1" />
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="meta alt button1" />
+  </action>
   <action id="GotoLine" />
   <action id="Graph.Delete">
     <keyboard-shortcut first-keystroke="delete" />
@@ -135,5 +138,8 @@
   </action>
   <action id="ZoomCurrentWindow">
     <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+  <action id="hg4idea.branches">
+    <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
 </keymap>
