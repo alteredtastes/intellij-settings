@@ -124,6 +124,11 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+    <keyboard-shortcut first-keystroke="meta y" />
+    <mouse-shortcut keystroke="control meta alt button1" />
+  </action>
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
