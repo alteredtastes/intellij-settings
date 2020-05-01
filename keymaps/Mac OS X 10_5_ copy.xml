@@ -3,9 +3,16 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl 1" />
     <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="meta p" />
@@ -45,6 +52,8 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="DecrementWindowHeight" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
@@ -87,6 +96,8 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="meta alt c" />
