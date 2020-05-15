@@ -14,5 +14,6 @@
     <mask>*.ts</mask>
     <mask>*.ts, *.tsx</mask>
     <mask>*.java</mask>
+    <mask>*.js</mask>
   </component>
 </application>
