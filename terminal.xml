@@ -1,5 +1,5 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myTabName" value="yarn" />
+    <option name="myTabName" value="" />
   </component>
 </application>
