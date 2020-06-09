@@ -14,7 +14,7 @@
     <mask>*.ts</mask>
     <mask>*.java</mask>
     <mask>*.js</mask>
-    <mask>*.def</mask>
     <mask>*.ts, *.tsx</mask>
+    <mask>*.def</mask>
   </component>
 </application>
