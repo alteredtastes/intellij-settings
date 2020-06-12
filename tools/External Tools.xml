@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="sleep" />
       <option name="PARAMETERS" value="10000" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
