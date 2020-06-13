@@ -5,6 +5,7 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <removed_mapping ext="def" approved="true" type="Kotlin/Native Def" />
       <mapping pattern="SubmitButton" type="PLAIN_TEXT" />
+      <mapping pattern="amqp" type="TypeScript" />
       <mapping pattern="channelBridge" type="TypeScript" />
       <mapping pattern="sharedComponents" type="TypeScript" />
       <mapping pattern="uxComponents" type="TypeScript" />
