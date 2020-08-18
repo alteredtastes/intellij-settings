@@ -1,3 +1,7 @@
 <templateSet group="surround">
-  <template name="/* */" value="/*$SELECTION$*/" description="inline comment" toReformat="false" toShortenFQNames="true" />
+  <template name="/* */" value="/*$SELECTION$*/" description="inline comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
