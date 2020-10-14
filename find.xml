@@ -9,11 +9,11 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.ejs</mask>
-    <mask>*.js</mask>
     <mask>*.ts, *.tsx</mask>
     <mask>*.java</mask>
     <mask>*.def</mask>
-    <mask>*.ts</mask>
     <mask>*.tsx</mask>
+    <mask>*.ts</mask>
+    <mask>*.js</mask>
   </component>
 </application>
