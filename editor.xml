@@ -10,6 +10,9 @@
     <option name="USE_SOFT_WRAPS" value="PREVIEW" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
   </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
   </component>
