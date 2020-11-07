@@ -11,9 +11,11 @@
     <mask>*.ejs</mask>
     <mask>*.ts, *.tsx</mask>
     <mask>*.java</mask>
-    <mask>*.def</mask>
     <mask>*.tsx</mask>
     <mask>*.ts</mask>
     <mask>*.js</mask>
+    <mask>*.def</mask>
+    <mask>*.def*</mask>
+    <mask>*.ts*</mask>
   </component>
 </application>
