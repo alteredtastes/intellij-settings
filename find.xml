@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.def*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -14,9 +13,9 @@
     <mask>*.tsx</mask>
     <mask>*.ts</mask>
     <mask>*.js</mask>
-    <mask>*.def</mask>
     <mask>*.java</mask>
-    <mask>*.ts*</mask>
     <mask>*.def*</mask>
+    <mask>*.ts*</mask>
+    <mask>*.def</mask>
   </component>
 </application>
