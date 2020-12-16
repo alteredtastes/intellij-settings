@@ -38,6 +38,11 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="meta button3" />
+  </action>
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
@@ -140,6 +145,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="Rainbow.ScopeHighlightingAction" />
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
