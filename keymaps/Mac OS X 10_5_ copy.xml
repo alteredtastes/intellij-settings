@@ -69,13 +69,9 @@
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
-    <keyboard-shortcut first-keystroke="ctrl n" />
-    <keyboard-shortcut first-keystroke="meta k" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
-    <keyboard-shortcut first-keystroke="ctrl b" />
-    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -91,13 +87,9 @@
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
-    <keyboard-shortcut first-keystroke="ctrl f" />
-    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
-    <keyboard-shortcut first-keystroke="ctrl p" />
-    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
@@ -143,6 +135,9 @@
   <action id="ResizeToolWindowUp" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="meta k" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
