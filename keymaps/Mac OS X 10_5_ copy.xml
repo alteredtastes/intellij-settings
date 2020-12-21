@@ -52,6 +52,7 @@
     <keyboard-shortcut first-keystroke="shift meta alt g" />
   </action>
   <action id="DatabaseView.PropertiesAction" />
+  <action id="Debug" />
   <action id="Debugger.RemoveArrayFilter">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -133,6 +134,7 @@
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="Run" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
