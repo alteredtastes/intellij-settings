@@ -119,6 +119,30 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.clj">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.clojure" />
+              <option name="myPluginName" value="Clojure-Kit" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cljc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.clojure" />
+              <option name="myPluginName" value="Clojure-Kit" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cljs">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.clojure" />
+              <option name="myPluginName" value="Clojure-Kit" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.coffee">
           <value>
             <plugin>
@@ -277,6 +301,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.edn">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.clojure" />
+              <option name="myPluginName" value="Clojure-Kit" />
             </plugin>
           </value>
         </entry>
@@ -1815,6 +1847,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="build.boot">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.clojure" />
+              <option name="myPluginName" value="Clojure-Kit" />
             </plugin>
           </value>
         </entry>
