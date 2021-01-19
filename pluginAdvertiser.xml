@@ -119,6 +119,38 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.clj">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.cursiveclojure.cursive" />
+              <option name="myPluginName" value="Cursive" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cljc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.cursiveclojure.cursive" />
+              <option name="myPluginName" value="Cursive" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cljs">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.cursiveclojure.cursive" />
+              <option name="myPluginName" value="Cursive" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.cljx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.cursiveclojure.cursive" />
+              <option name="myPluginName" value="Cursive" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.coffee">
           <value>
             <plugin>
@@ -277,6 +309,14 @@
               <option name="myPluginId" value="com.intellij" />
               <option name="myPluginName" value="IDEA CORE" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.edn">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.cursiveclojure.cursive" />
+              <option name="myPluginName" value="Cursive" />
             </plugin>
           </value>
         </entry>
@@ -1818,6 +1858,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="build.boot">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.clojure" />
+              <option name="myPluginName" value="Clojure-Kit" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="exclude">
           <value>
             <plugin>
@@ -2013,6 +2061,21 @@
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
                     </value>
                   </entry>
+                  <entry key="ClojureREPL">
+                    <value>
+                      <FeaturePluginData displayName="Clojure REPL" pluginName="Cursive" pluginId="com.cursiveclojure.cursive" />
+                    </value>
+                  </entry>
+                  <entry key="ClojureScriptRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Clojure Application" pluginName="Cursive" pluginId="com.cursiveclojure.cursive" />
+                    </value>
+                  </entry>
+                  <entry key="ClojureTestRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="clojure.test" pluginName="Cursive" pluginId="com.cursiveclojure.cursive" />
+                    </value>
+                  </entry>
                   <entry key="CompoundRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" />
@@ -2116,6 +2179,11 @@
                   <entry key="KotlinStandaloneScriptRunConfigurationType">
                     <value>
                       <FeaturePluginData displayName="Kotlin script" pluginName="Kotlin" pluginId="org.jetbrains.kotlin" />
+                    </value>
+                  </entry>
+                  <entry key="LeiningenRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Leiningen" pluginName="Cursive" pluginId="com.cursiveclojure.cursive" />
                     </value>
                   </entry>
                   <entry key="MavenRunConfiguration">
