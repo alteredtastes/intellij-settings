@@ -1,17 +1,16 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <ignoreFiles list="*.log;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
-      <removed_mapping ext="def" approved="true" type="Kotlin/Native Def" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="SubmitButton" type="PLAIN_TEXT" />
-      <mapping pattern="types" type="TypeScript" />
-      <mapping pattern="channelBridge" type="TypeScript" />
-      <mapping pattern="sharedComponents" type="TypeScript" />
-      <mapping pattern="amqp" type="TypeScript" />
       <mapping pattern="uxComponents" type="TypeScript" />
       <mapping pattern="sendAppToolLayout" type="TypeScript" />
+      <mapping pattern="types" type="TypeScript" />
+      <mapping pattern="channelBridge" type="TypeScript" />
+      <mapping pattern="amqp" type="TypeScript" />
+      <mapping pattern="sharedComponents" type="TypeScript" />
       <mapping pattern="tsconfig.frontend-base.json" type="tsconfig" />
       <mapping pattern="tsconfig.backend-base.json" type="tsconfig" />
       <removed_mapping ext="def" approved="true" type="Kotlin/Native Def" />
