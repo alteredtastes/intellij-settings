@@ -5,6 +5,7 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="SubmitButton" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="uxComponents" type="TypeScript" />
       <mapping pattern="sendAppToolLayout" type="TypeScript" />
       <mapping pattern="types" type="TypeScript" />
