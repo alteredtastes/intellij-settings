@@ -10,12 +10,12 @@
     <mask>*.properties</mask>
     <mask>*.ejs</mask>
     <mask>*.ts, *.tsx</mask>
-    <mask>*.tsx</mask>
     <mask>*.ts</mask>
     <mask>*.js</mask>
-    <mask>*.java</mask>
     <mask>*.def*</mask>
     <mask>*.ts*</mask>
     <mask>*.def</mask>
+    <mask>*.tsx</mask>
+    <mask>*.java</mask>
   </component>
 </application>
